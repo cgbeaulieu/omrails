@@ -1,0 +1,27 @@
+    /* How to change the font */
+	/*$baseFontFamily: 'Press Start 2P';
+	@import url(http://fonts.googleapis.com/css?family=Press+Start+2P);*/
+
+$navbarBackgroundHighlight: white;
+$navbarBackground: white;
+$btnPrimaryBackground: purple;
+
+@import 'bootstrap';
+body{
+    padding-top: 60px;
+}
+
+@import 'bootstrap-responsive';
+
+.navbar-inner{
+    @include box-shadow(none !important);
+    border: 0;
+}
+
+.footer{
+    margin-top: 50px;
+    color: $grayLight;
+    a{
+        color: $gray;
+    }
+}
